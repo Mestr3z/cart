@@ -1372,6 +1372,14 @@
 }
 
 @media screen and (max-width: 860px) {
+    .order-menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .order__title{
+        margin-top: 15px;
+    }
 
     .cards__cart{
         max-width: 100%;
@@ -1594,14 +1602,7 @@
 
 @media screen and (max-width: 650px){
 
-    .order-menu{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .order__title{
-        margin-top: 15px;
-    }
+   
 
     .card__block{
         display: grid;
